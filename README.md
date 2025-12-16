@@ -1,161 +1,164 @@
-Seoul Bike Sharing Demand Analysis
-📌 Project Overview
+# Seoul Bike Sharing Demand Analysis
+
+## **Project Overview** 
 
 This project analyzes bike-sharing usage patterns in Seoul to support data-driven operational and promotional decisions.
 The analysis focuses on identifying differences in bike rental demand across time, weather conditions, seasons, and holidays, with the goal of improving bike availability during peak hours and optimizing promotional strategies.
 
 This project was developed as an end-to-end Data Analyst case study, combining exploratory analysis, statistical testing, business insights, and stakeholder-facing visualization.
 
-🎯 Business Problem
 
-Bike-sharing demand in Seoul fluctuates significantly depending on:
+## **Business Problem**
 
-time of day,
+### Bike-sharing demand in Seoul fluctuates significantly depending on:
 
-weekday versus holiday usage,
+* time of day,
 
-weather conditions, and
+* weekday versus holiday usage,
 
-seasonal patterns.
+* weather conditions, and
 
-Without data-driven insights, operators risk:
+* seasonal patterns.
 
-bike shortages during peak commuting hours,
+### Without data-driven insights, operators risk:
 
-underutilized resources during low-demand periods, and
+* bike shortages during peak commuting hours,
 
-ineffective promotional strategies.
+* underutilized resources during low-demand periods, and
 
-Key question:
+* ineffective promotional strategies.
 
-How can bike-sharing operators optimize bike availability and promotional strategies based on usage patterns and external factors?
+### Key question:
 
-🧠 Business Objectives
+| How can bike-sharing operators optimize bike availability and promotional strategies based on usage patterns and external factors?
 
-Understand demand patterns across time, weather, and holidays
+## **Business Objectives**
 
-Identify behavioral differences between weekday and holiday users
+* Understand demand patterns across time, weather, and holidays
 
-Provide actionable, data-driven recommendations for operational optimization
+* Identify behavioral differences between weekday and holiday users
 
-📊 Dataset Overview
+* Provide actionable, data-driven recommendations for operational optimization
 
-Dataset: Seoul Bike Sharing Demand
+## **Dataset Overview**
 
-Source: UCI Machine Learning Repository
+* Dataset: Seoul Bike Sharing Demand
 
-Time Period: December 2017 – November 2018
+* Source: UCI Machine Learning Repository
 
-Granularity: Hourly data
+* Time Period: December 2017 – November 2018
 
-Target Variable: Rented Bike Count
+* Granularity: Hourly data
+
+* Target Variable: Rented Bike Count
 
 Key features include weather variables, seasonal indicators, holiday flags, and time-based attributes.
 
-🔍 Analytical Approach
+## Analytical Approach
 
 The analysis followed a structured data analytics workflow:
 
-Data understanding and validation
+1. Data understanding and validation
 
-Exploratory Data Analysis (EDA)
+2. Exploratory Data Analysis (EDA)
 
-Time-based pattern analysis (hourly, daily, seasonal)
+3. Time-based pattern analysis (hourly, daily, seasonal)
 
-Comparison between weekday and holiday usage
+4. Comparison between weekday and holiday usage
 
-Statistical validation using A/B Testing
+5. Statistical validation using A/B Testing
 
-Business interpretation and recommendation formulation
+6. Business interpretation and recommendation formulation
 
-The focus of this project is decision support, not predictive modeling.
+| **The focus of this project is decision support, not predictive modeling.**
 
-📈 Key Insights
+## **Key Insights**
 
-Weekday vs Holiday Patterns
-Weekdays show strong commuting behavior with demand peaks during morning (07.00–09.00) and evening (17.00–18.00) hours, while holiday usage is more evenly distributed.
+### Weekday vs Holiday Patterns
+* Weekdays show strong commuting behavior with demand peaks during morning (07.00–09.00) and evening (17.00–18.00) hours, while holiday usage is more evenly distributed.
 
-Weather & Temperature Effects
-Bike rental demand has a moderate positive correlation with temperature. Rainfall and extreme weather conditions consistently reduce usage.
+### Weather & Temperature Effects
+* Bike rental demand has a moderate positive correlation with temperature. Rainfall and extreme weather conditions consistently reduce usage.
 
-Seasonality
-Demand increases from spring, peaks during summer, and declines significantly in winter.
+### Seasonality
+* Demand increases from spring, peaks during summer, and declines significantly in winter.
 
-Statistical Validation
-A/B testing confirms that differences in demand across weekdays vs holidays, peak vs non-peak hours, and seasonal conditions are statistically significant.
+### Statistical Validation
+* A/B testing confirms that differences in demand across weekdays vs holidays, peak vs non-peak hours, and seasonal conditions are statistically significant.
 
-💡 Business Recommendations
-Operational Optimization
+## **Business Recommendations**
 
-Increase bike availability during weekday morning rush hours (07.00–09.00).
+### Operational Optimization
 
-Adjust promotional strategies for holidays and clear-weather afternoons.
+* Increase bike availability during weekday morning rush hours (07.00–09.00).
 
-Incorporate daily weather forecasts into operational planning.
+* Adjust promotional strategies for holidays and clear-weather afternoons.
 
-Example Scenario
+* Incorporate daily weather forecasts into operational planning.
 
-Average weekday demand (07.00–09.00): ~2,336 rentals
+### Example Scenario
 
-Recommended buffer (10%): ~2,570 bikes
+* Average weekday demand (07.00–09.00): ~2,336 rentals
 
-Additional bikes needed: ~234 units
+* Recommended buffer (10%): ~2,570 bikes
+
+* Additional bikes needed: ~234 units
 
 These actions can improve bike availability during peak periods and enhance customer experience.
 
-🛠 Tools & Technologies
+## **Tools & Technologies**
 
-Data Analysis: Python (Google Colab)
+* Data Analysis: Python (Google Colab)
 
-Visualization & Dashboard: Power BI
+* Visualization & Dashboard: Power BI
 
-Statistical Analysis: A/B Testing (t-test)
+* Statistical Analysis: A/B Testing (t-test)
 
-Planned Deployment: Streamlit (public-facing analytics app)
+* Planned Deployment: Streamlit (public-facing analytics app)
 
-📦 Project Structure
+## **Project Structure**
 seoul-bike-sharing-demand-analysis/
-├─ app/            # Streamlit application
-├─ notebooks/      # Google Colab notebook (.ipynb)
-├─ powerbi/        # Dashboard screenshots & notes
-├─ data/           # Dataset or data instructions
+├─ app/            
+├─ notebooks/      
+├─ powerbi/        
+├─ data/           
 ├─ requirements.txt
 └─ README.md
 
-🚀 Deliverables
+## **Deliverables**
 
-Exploratory data analysis and business insights
+* Exploratory data analysis and business insights
 
-Interactive Power BI dashboard for stakeholder analysis
+* Interactive Power BI dashboard for stakeholder analysis
 
-Business recommendations supported by data
+* Business recommendations supported by data
 
-Planned Streamlit application for public access
+* Planned Streamlit application for public access
 
-⚠️ Limitations & Future Improvements
+## **Limitations & Future Improvements**
 
-Limitations
+### Limitations
 
-Analysis is based on historical data from a single year
+* Analysis is based on historical data from a single year
 
-External factors such as city events are not included
+* External factors such as city events are not included
 
-Future Improvements
+### Future Improvements
 
-Integration of real-time weather and event data
+* Integration of real-time weather and event data
 
-Demand forecasting models
+* Demand forecasting models
 
-Interactive operational planning via Streamlit
+* Interactive operational planning via Streamlit
 
-🔗 Links
+## **Links**
 
-📊 Power BI Dashboard (screenshot available in /powerbi)
+* Power BI Dashboard (screenshot dashboard)
 
-🌐 Streamlit App (to be deployed)
+* Streamlit App (to be deployed)
 
-👤 Author
+## **Author**
 
-[Your Name]
+**Suci Ramadhani Fauzi**
 Data Analyst
-📧 Email | 🔗 LinkedIn | 💻 GitHub
+📧 Email: suciramfau15@gmail.com | 🔗 LinkedIn: Suci Ramadhani Fauzi | 💻 GitHub:  Suci Ramadhani Fauzi
