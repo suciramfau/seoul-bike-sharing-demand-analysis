@@ -117,13 +117,7 @@ These actions can improve bike availability during peak periods and enhance cust
 * Planned Deployment: Streamlit (public-facing analytics app)
 
 ## **Project Structure**
-seoul-bike-sharing-demand-analysis/
-├─ app/            
-├─ notebooks/      
-├─ powerbi/        
-├─ data/           
-├─ requirements.txt
-└─ README.md
+<img width="400" height="200" alt="image" src="https://github.com/user-attachments/assets/7ff4c336-a62a-4646-9cde-29ce1b473898" />
 
 ## **Deliverables**
 
@@ -159,6 +153,6 @@ seoul-bike-sharing-demand-analysis/
 
 ## **Author**
 
-**Suci Ramadhani Fauzi**
-Data Analyst
+**Suci Ramadhani Fauzi** | Data Analyst
+
 📧 Email: suciramfau15@gmail.com | 🔗 LinkedIn: Suci Ramadhani Fauzi | 💻 GitHub:  Suci Ramadhani Fauzi
