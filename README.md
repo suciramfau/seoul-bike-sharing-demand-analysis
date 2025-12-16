@@ -147,14 +147,22 @@ These actions can improve bike availability during peak periods and enhance cust
 
 ## **Links**
 
-* Power BI Dashboard: [screenshot dashboard] https://drive.google.com/file/d/17Jcu15FpSKzwHRCYLvoE858vAD0gmiTd/view?usp=drive_link 
+### Dashboard Preview
+[Power BI Dashboard Screenshot](https://drive.google.com/file/d/17Jcu15FpSKzwHRCYLvoE858vAD0gmiTd/view?usp=drive_link)
 
-* Live Demo: [Streamlit App] https://suciramfau-seoul-bike-sharing-demand-analysis.streamlit.app/
+
+### Live Demo
+[Open Interactive Dashboard](https://suciramfau-seoul-bike-sharing-demand-analysis.streamlit.app/)
+
 
 ## **Author**
 
 **Suci Ramadhani Fauzi** | Data Analyst
 
-📧 Email: suciramfau15@gmail.com  
-🔗 LinkedIn: Suci Ramadhani Fauzi  | https://www.linkedin.com/in/suciramadhanifauzi/ 
-💻 GitHub:  Suci Ramadhani Fauzi   | https://github.com/repos?q=owner%3A%40me 
+**Email**: suciramfau15@gmail.com 
+
+**LinkedIn**: [View Profile](https://www.linkedin.com/in/suciramadhanifauzi/)
+
+**GitHub**: [Project Repository](https://github.com/repos?q=owner%3A%40me)
+
+
